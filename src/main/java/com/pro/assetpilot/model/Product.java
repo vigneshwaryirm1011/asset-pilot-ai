@@ -30,8 +30,7 @@ public class Product {
 
     protected Product() {
     }
-    public Product(Long id, String sku, String name, BigDecimal price, int stock) {
-        this.id = id;
+    public Product(String sku, String name, BigDecimal price, int stock) {
         this.sku = sku;
         this.name = name;
         this.price = price;
